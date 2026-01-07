@@ -1,6 +1,6 @@
 from data_ingestion import ingest_data
 from data_preparation import prepare_data
-from train import TrainAndEvaluation 
+from model_training import TrainAndEvaluation 
 
 
 if __name__ == "__main__":

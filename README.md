@@ -35,6 +35,14 @@ diabetes/
 ```
 
 > ⚠️ **Important:** The `mlruns/` folder is **not included in Docker or GitHub** to avoid shipping other models or experiments. The API uses only the exported model in `model/`.  
+
+
+## 🚀 Quick Start (No Setup Required (only docker on pc))
+
+```bash
+docker pull harcuracy/diabetes-api:latest
+docker run -p 8000:8000 harcuracy/diabetes-api:latest
+```
 ## Getting Started
 1. **Clone the repository:**
 ```bash

@@ -1,0 +1,19 @@
+mlruns/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore data files
+data/
+
+# Ignore model files
+models/
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# ignore mlflow specific files
+mlflow.db
+mlruns/
